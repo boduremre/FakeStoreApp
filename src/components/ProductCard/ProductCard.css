@@ -1,0 +1,9 @@
+/* Card'ın hover efekti */
+.ant-card:hover {
+  transform: scale(1.05); /* Kartı biraz büyütme */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+
+.ant-card-cover img {
+  object-fit: cover; /* Resmin karta uygun şekilde boyutlandırılması */
+}

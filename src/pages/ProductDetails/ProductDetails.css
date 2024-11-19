@@ -1,0 +1,7 @@
+.product-image {
+  width: 100%; /* Kartın genişliğini doldurur */
+  max-height: 475px; /* Maksimum yükseklik belirler */
+  object-fit: contain; /* Resmi orantılı şekilde sığdırır */
+  border-radius: 8px; /* Köşeleri yumuşatır */
+  margin-top: 15px;
+}

@@ -1,0 +1,21 @@
+.product-list-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(240px, 1fr)
+  ); /* Kartları otomatik olarak yerleştir */
+  gap: 16px; /* Kartlar arasındaki boşluk */
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Kartın yüksekliğini kolon boyutuna göre ayarlamak */
+}
+
+.ant-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
